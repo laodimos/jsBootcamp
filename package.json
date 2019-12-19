@@ -9,7 +9,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-
+    
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
@@ -17,13 +17,24 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laodimos/jsBootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laodimos/jsBootcamp/issues"
+  },
+  "homepage": "https://github.com/laodimos/jsBootcamp#readme",
+
   "scripts": {
     "start": "concurrently \"cd client && react-scripts start\" \"node ./server/bin/www\" ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
+  
   "proxy": "http://localhost:4000",
 
   "eslintConfig": {
